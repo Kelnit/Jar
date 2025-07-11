@@ -1,2 +1,4 @@
 fastapi[standard]
 requests
+prometheus-client
+prometheus-fastapi-instrumentator
