@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  # Python Application
+  application:
+    build: Python
+    ports:
+      - "8080:8080"
+    networks:
+      - application-networks
+
+networks:
+  application-networks:
+    driver: bridge
